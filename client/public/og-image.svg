@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="MobiStock preview">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1120" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1028"/>
+      <stop offset="0.5" stop-color="#070a17"/>
+      <stop offset="1" stop-color="#04060f"/>
+    </linearGradient>
+    <linearGradient id="g" x1="300" y1="140" x2="860" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#6366f1" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="170" cy="120" r="160" fill="#6366f1" opacity="0.12"/>
+  <circle cx="1080" cy="540" r="220" fill="#ec4899" opacity="0.10"/>
+
+  <g filter="url(#shadow)">
+    <rect x="190" y="120" width="820" height="390" rx="42" fill="#0a0f27" stroke="rgba(99,102,241,0.25)" stroke-width="2"/>
+    <rect x="230" y="160" width="320" height="18" rx="9" fill="#ffffff" opacity="0.06"/>
+    <rect x="230" y="196" width="250" height="12" rx="6" fill="#ffffff" opacity="0.05"/>
+
+    <rect x="720" y="150" width="230" height="330" rx="40" fill="none" stroke="url(#g)" stroke-width="18"/>
+    <rect x="766" y="178" width="138" height="14" rx="7" fill="url(#g)" opacity="0.75"/>
+    <circle cx="835" cy="426" r="10" fill="url(#g)"/>
+  </g>
+
+  <text x="230" y="300" fill="#e5e7eb" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="56" font-weight="800">
+    MobiStock
+  </text>
+  <text x="230" y="360" fill="#94a3b8" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="30" font-weight="600">
+    Mobile Shop Inventory · Rates · Quantity
+  </text>
+  <text x="230" y="420" fill="#a78bfa" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto" font-size="28" font-weight="700">
+    Company · Model · Purchase · Selling · Stock
+  </text>
+</svg>

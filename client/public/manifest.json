@@ -1,0 +1,16 @@
+{
+  "short_name": "MobiStock",
+  "name": "MobiStock — Mobile Shop Inventory",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0b1028",
+  "background_color": "#04060f"
+}
